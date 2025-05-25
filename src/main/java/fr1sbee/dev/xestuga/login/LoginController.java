@@ -13,7 +13,7 @@ public class LoginController {
 
     @RequestMapping("")
     public String index(){
-        LOGGER.info("Accediste al login ");
+        LOGGER.info("Accediendo al login ");
         return "login.html";
     }
 }
